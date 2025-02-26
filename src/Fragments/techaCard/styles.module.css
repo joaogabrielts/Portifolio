@@ -1,0 +1,67 @@
+@import url("/src/styles/globalStyles.css");
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap");
+
+
+
+
+
+.techCard {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+ 
+  color: var(--gray-3);
+
+}
+
+.techCardTitle {
+  font-family: "IBM Plex Sans", sans-serif;
+  font-weight: 700;
+   color: white;
+}
+
+
+.linguagens {
+  display: flex;
+  color: var(--gray-3);
+  gap: 10px;
+}
+
+.buttonLinguagens {
+  background-color: rgba(18, 18, 20, 1);
+  padding: 0px 8px 0px 8px ;
+  border-radius: 5px;
+
+}
+.description{
+  color: var(--gray-3);
+}
+
+
+
+.icone__container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 20px;
+  color: var(--gray-3);
+}
+
+.icone__github {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 10px;
+}
+
+.icone__share {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 10px;
+}
+
+.iconImage {
+  width: 20px;
+  height: 20px;
+}

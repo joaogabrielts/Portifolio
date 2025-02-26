@@ -1,0 +1,79 @@
+@import url("/src/styles/globalStyles.css");
+
+
+.projectCard {
+    color: white;
+    display: flex;
+    background-color:  rgba(18, 18, 20, 1);
+    padding: 80px 80px;
+}
+
+.projectContent {
+ width: 100%;
+}
+
+.projectTitle {
+    width: 60%;
+    color: var(--gray-1);
+   
+}
+
+.projectHighlight {
+    color: var(--color-primary);
+}
+
+.projectDescription {
+    color: var(--gray-3);
+    width: 60%;
+}
+
+.projectContact {
+    display: flex; 
+    flex-direction: column;
+    width: 1000px;
+}
+
+.contactItem {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+}
+.contactIcon{
+    width: 20px;
+    height: 20px;
+}
+#whatsappBottom{
+    background: linear-gradient(to bottom,rgba(80, 197, 113, 1),rgba(80, 207, 154, 1));
+    padding: 20px;
+    border-radius: 10px;
+}
+#emailBottom{
+    background: linear-gradient(to bottom,rgba(189, 59, 155, 1),rgba(238, 91, 199, 1));
+    padding: 20px;
+    border-radius: 10px;
+}
+#linkedinBottom{
+    background: linear-gradient(to bottom,rgba(78, 115, 255, 1),rgba(80, 108, 207, 1));
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.contactDetails{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+.contactTitle{
+    margin-bottom: 0px;
+    color: var(--gray-1);
+}
+.contactText{
+    color: var(--gray-3);
+    margin-bottom: 0px;
+    width: 90%;
+}
+.contactAction{
+    color: var(--gray-1);
+}
